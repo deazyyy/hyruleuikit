@@ -3192,11 +3192,12 @@ var PanelFooter = function (_a) {
                 React.createElement(Icon$16, null))));
     }
     return (React.createElement(Container, null,
+        React.createElement("div", { className: "panelFooter" },
+        React.createElement(Button, null, "Connect")),
         React.createElement(SocialEntry, null,
             React.createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd }),
             React.createElement(SocialLinks$1, null)),
         React.createElement(SettingsEntry, null,
-            React.createElement(ThemeSwitcher$1, { isDark: isDark, toggleTheme: toggleTheme }),
             React.createElement(LangSelector$1, { currentLang: currentLang, langs: langs, setLang: setLang }))));
 };
 var templateObject_1$8, templateObject_2$3, templateObject_3$1;
